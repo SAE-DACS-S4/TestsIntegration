@@ -1,14 +1,17 @@
 package Scripts;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import Cryptage.KeyGenCryptage;
+import Cryptage.PublicKey;
+import org.junit.After;
+import org.junit.jupiter.api.*;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ConnectException;
 import java.net.Socket;
+
+import static org.junit.Assert.assertNotNull;
 
 public class ScriptTestScrutateur {
 
@@ -26,12 +29,22 @@ public class ScriptTestScrutateur {
         catch (IOException e) {
             e.printStackTrace();
         }
+        try{
+            testRunner.testRequestPublicKey();
+            System.out.println("Test Request Public Key : Success");
+        }
+        catch (IOException e) {
+            System.out.println("Test Request Public Key : Failure - " + e.getMessage());
+        }
+        catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
 
     }
     private Socket clientSocket;
     private ObjectOutputStream oos;
     private ObjectInputStream ois;
-    @BeforeEach
+    @BeforeAll
     public void setUp() throws IOException {
         // Se connecter au scrutateur
         clientSocket = new Socket("localhost", 5057);
@@ -39,9 +52,30 @@ public class ScriptTestScrutateur {
         ois = new ObjectInputStream(clientSocket.getInputStream());
     }
 
-    @Test
-    public void testConnexion() throws IOException {
+    @AfterAll
+    public void tearDown() throws IOException {
+        // Fermer les ressources
+        ois.close();
+        oos.close();
+        clientSocket.close();
+    }
 
+    @Test
+    public void testRequestPublicKey() throws IOException, ClassNotFoundException {
+        // Demander la clé publique
+        oos.writeUTF("newvote");
+        oos.writeUTF("testvote");
+        oos.flush();
+
+        PublicKey publicKey = (PublicKey) ois.readObject();
+        System.out.println("G : " + publicKey.getG());
+        System.out.println("H : "+ publicKey.getH());
+        System.out.println("P : " + publicKey.getP());
+
+
+
+        // Vérifier que la clé publique a été reçue
+        Assertions.assertNotNull(publicKey);
     }
 
 }
