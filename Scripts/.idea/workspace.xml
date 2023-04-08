@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ScriptTestInterogationBD.jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9415f892-515e-4b4f-b38b-dc03f6379f19" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Nb40Q6eoozFd8zxz86jyBQkszV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Gaetan/OneDrive - umontpellier.fr/Cour IUT 2ème année/Semestre 4/SAE/Application/Tests/Scripts/Scripts/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gaetan/OneDrive - umontpellier.fr/Cour IUT 2ème année/Semestre 4/SAE/Application/Tests/Scripts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gaetan\OneDrive - umontpellier.fr\Cour IUT 2ème année\Semestre 4\SAE\Application\Tests\Scripts\Scripts\src\main\java\Scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ScriptRequeteBD">
+    <configuration name="ScriptRequeteBD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scripts.ScriptRequeteBD" />
+      <module name="your-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScriptRequeteBD.supprimerUtilisateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="your-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Scripts" />
+      <option name="MAIN_CLASS_NAME" value="Scripts.ScriptRequeteBD" />
+      <option name="METHOD_NAME" value="supprimerUtilisateur" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScriptRequeteBD.testConnexion (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="your-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Scripts" />
+      <option name="MAIN_CLASS_NAME" value="Scripts.ScriptRequeteBD" />
+      <option name="METHOD_NAME" value="testConnexion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScriptRequeteBD.testSelect (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="your-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Scripts" />
+      <option name="MAIN_CLASS_NAME" value="Scripts.ScriptRequeteBD" />
+      <option name="METHOD_NAME" value="testSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScriptRequeteBD.testSelect2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="your-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Scripts" />
+      <option name="MAIN_CLASS_NAME" value="Scripts.ScriptRequeteBD" />
+      <option name="METHOD_NAME" value="testSelect2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ScriptRequeteBD" />
+        <item itemvalue="JUnit.ScriptRequeteBD.testSelect2" />
+        <item itemvalue="JUnit.ScriptRequeteBD.supprimerUtilisateur" />
+        <item itemvalue="JUnit.ScriptRequeteBD.testSelect (1)" />
+        <item itemvalue="JUnit.ScriptRequeteBD.testConnexion (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9415f892-515e-4b4f-b38b-dc03f6379f19" name="Changes" comment="" />
+      <created>1679919225767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679919225767</updated>
+      <workItem from="1679919227170" duration="453000" />
+      <workItem from="1679919784278" duration="3911000" />
+      <workItem from="1679942651258" duration="269000" />
+      <workItem from="1679942935801" duration="4067000" />
+      <workItem from="1679947015234" duration="3177000" />
+      <workItem from="1679952276284" duration="513000" />
+      <workItem from="1679983768359" duration="2376000" />
+      <workItem from="1680004881107" duration="1718000" />
+      <workItem from="1680014973255" duration="956000" />
+      <workItem from="1680252484939" duration="3000" />
+      <workItem from="1680861519286" duration="2655000" />
+      <workItem from="1680870018811" duration="628000" />
+      <workItem from="1680884719514" duration="596000" />
+      <workItem from="1680896114165" duration="159000" />
+      <workItem from="1680896276486" duration="318000" />
+      <workItem from="1680896597251" duration="343000" />
+      <workItem from="1680897000814" duration="2075000" />
+      <workItem from="1680899831536" duration="1685000" />
+      <workItem from="1680944714640" duration="6261000" />
+      <workItem from="1680951975001" duration="555000" />
+      <workItem from="1680952538100" duration="38000" />
+      <workItem from="1680952586024" duration="4000" />
+      <workItem from="1680952627362" duration="226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
