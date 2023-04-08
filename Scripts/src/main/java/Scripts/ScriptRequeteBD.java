@@ -29,7 +29,6 @@ public class ScriptRequeteBD {
         }
         System.out.println("----------------------------------------------------");
 
-
         try {
             testRunner.testInsertUtilisateur();
             System.out.println("\nTest Insert Utilisateur: Success");
