@@ -16,7 +16,7 @@ public class ScriptRequeteBD {
         ScriptRequeteBD testRunner = new ScriptRequeteBD();
         System.out.println("----------------------------------------------------");
         try {
-            init();
+            testRunner.init();
         } catch (SQLNonTransientConnectionException e) {
             System.out.println("Erreur de connexion à la base de données, veuillez vérifier que le docker est bien lancé");
             System.exit(1);
